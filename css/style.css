@@ -3,7 +3,10 @@ body{
     font-family: Dosis, Helvetica, Arial, sans-serif;
     color: #40514e;
 }
-
+h1{
+    font-weight: normal;
+    font-size: 4em;
+}
 h2{
     color: #66BFBF;
     font-weight: normal;
@@ -178,8 +181,6 @@ POSITION
     color: #FF0063;
 }
 
-
-
 .contact-message{
     width: 50%;
     margin: 40px auto 60px;
@@ -220,7 +221,20 @@ POSITION
     text-decoration: none;
   }
 
+  /*Contact me page*/
+  .contact-container{
+    text-align: center;
+  }
 
+  .contact-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .contact-image{
+    width: 100px;
+  }
 
 /* ANIMATION  - Fade In Up*/
 @keyframes fadeInUp {
